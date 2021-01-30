@@ -206,7 +206,6 @@ const BarGraphComparison = (props) => {
   for (let i = 0; i < classname.length; i++) {
     classname[i].addEventListener('click', animateButton, false);
   }
-  //console.log('set x on current bar', setXpointsCurrentTab());
   return (
     <div>
       <div className='series-options-container'>
